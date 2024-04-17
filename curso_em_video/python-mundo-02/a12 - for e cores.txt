@@ -1,0 +1,52 @@
+=========================================================================================================================================================================
+AULA 12 - LAÇO "for" E CORES
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+ANOTAÇÕES
+=========================================================================================================================================================================
+
+Sempre se inicia o código de cores com "\33[m" e se finaliza com o mesmo, porém, quando se faz o código, no início deve-se colocar os parâmetros de cores que se quer, usando 
+o segundo parãmetro sem definições para apenas "fechar" aquele trecho onde a cor deverá ser aplicada. 
+
+Existe também a biblioteca colorize, que o Guanabara sugeriu estudar. Vejamos no python para saber. 
+
+Um laço for define a variável de iteração para cada valor em uma lista, array ou string fornecida e repete aquele código para todo o corpo do laço for para cada um dos valores. 
+
+
+
+=========================================================================================================================================================================
+Exercícios = 036 a 045
+=========================================================================================================================================================================
+
+036 - Escreva um programa para análise de crédito bancário para a compra de uma casa. O programa deverá perguntar o valor da casa que se quer comprar. 
+Depois o salário que o comprador tem. Depois quantos anos ele pretende quitar o valor. Considere para isso a taxa de juros de 0% (não incidência de taxas).
+Calcule o valor da prestação mensal. Se ela passar de 30% do valor do salário mensal do comprador não deverá aprovar o crédito. 
+Deverá apresentar uma mensagem verde para a aprovação e uma vermelha para a reprovação do crédito por parte do comprador.
+
+037 - Escreva um programa que leia um número inteiro qualquer e peça para o usuário qual a base da conversão, sendo: 1 para binário / 2 para octal / 3 para haxadecimal. 
+Usando o hífen alinhado.
+
+038 - Escreva um programa que leia dois números inteiros e compare os números. Deverá exibir uma mensagem informando qual o valor maior, qual o menor ou se são iguais. 
+Coloque cores diferentes para cada informação apresentada.
+
+039 - Faça um programa que leia o ano de nascimento de um jovem e informe de acordo com a sua idade, considerando: Menos de 18 anos ele ainda vai se alistar no exército
+Se ele tem 18 anos já é hora de se alistar. Se ele já passou dos 18 tem que informar que já passou do tempo para ele se alistar e poder correr para compensar o atraso.
+Colocar cores diferentes.
+
+040 - Faça um programa que leia duas notas de um aluno e calcule sua média mostrando uma mensagem no final, de acordo com a média dele. Sendo: 
+Média abaixo de 5 reprovado. Média entre 5 e 6.9 recuperação. Média 7 a 9.9 aprovado. Média 10 aprovado com louvor. 
+
+041 - A confederação nacional de natação precisa de um programa que leia a idade de um atleta e identifique a sua categoria de forma automática.
+Até 9 anos mirim / 9 a 14 é infantil / 15 a 19 é juniores / 20 anos é senior / acima de 20 anos é master
+
+042 - Refaça o desafio 35 dos triângulos incluindo agora a informação se o triângulo que ali se forma é equilátero, isóceles ou escaledo. 
+Equilátero tem todos os lados iguais / Isósceles tem dois lados iguais / Escaleno tem todos os lados diferentes.
+
+043 - Desenvolva uma lógica que calcule, com base no peso e altura da pessoa o seu IMC (Índice de massa corpórea) e e diga: 
+Abaixo de 18.5 está abaixo do seu peso / Entre 18.5 e 25 está no seu peso ideal / 25 até 30 está com sobre peso / 30 a 40 tem obesidade / Acima de 40 está com obesidade mórbida.
+
+044 - Elabore um programa que calcule o valor a ser pago por um produto considerando o seu preço normal e condições de pagamento. 
+À vista, dinheiro ou cheque tem desconto de 10% / à vista no cartão tem desconto de 5% / Em até 2x no cartão é o preço normal / Acima de 2x no cartão tem que acrescentar 20% de juros.
+
+045 - Crie um programa que faça o computador jogar com você o clássico pedra, papel e tesoura.

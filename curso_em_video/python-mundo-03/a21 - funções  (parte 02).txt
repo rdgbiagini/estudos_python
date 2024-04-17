@@ -1,0 +1,48 @@
+=========================================================================================================================================================================
+AULA 21 - FUNÇÕES (PARTE 02 DE 02) 
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+ANOTAÇÕES
+=========================================================================================================================================================================
+
+INTERACTIVE HELPS - Literalmente uma ajuda interativa dentro do python, que é uma função interna, que é "help()" sendo que, para obter a informação buscada, temos que incluir, dentro 
+dos parênteses o parâmetro da função que se busca. Pode ser usada com toda e qualquer coisa que você queira dentro do python, em qualquer momento do programa. 
+O help() e o XXX.__doc__ pode ter informações diferentes sobre um mesmo tema, então você pode usar as duas para poder pesquisar se estiver com dúvidas. 
+
+DOCSTRINGS - São uma espécie de manual, entrando na primeira linha de cada função criada, explicando, com o máximo de fidelidade, detalhe e objetividade uma função que você criou, para 
+que, adiante, quando uma outra pessoa for ver o seu código, você possa ter condições de explicar, lembrar de algo, ou até mesmo de ela compreender sozinha, sem a necessidade de você estar
+por perto, orientando, ou até mesmo perder o seu tempo explicando algum conceito ou ideia que passou pela sua cabeça na hora de formar uma função ou algum comando assim. Basicamente 
+é uma anotação que fica registrada como documento da aplicação. 
+
+VARIÁVEL OPCIONAIS - É quando uma função PODE OU NÃO ter algum parâmetro inserido, que é quando você coloca um "=0" para poder considerar uma variável opcional, e se o usuário não colocar 
+na hora de chamar a função, ele será zero, para uma soma pode ser zero que não altera, enquanto que para uma multiplicação isso poderia ser 1 que não alteraria. Você pode inclusive ter 
+TODOS OS PARÂMETROS como opcionais dentro de uma função qualquer, sem nenhum problema. O parâmetro "end=''" na função print() é um grande exemplo de um parâmetro opcional, se você 
+incluir esse valor, será usado, se não o fizer, será ignorado com sucesso, sem atrapalhar, de nenhuma forma, o código que você está escrevendo naquele momento. 
+
+ESCOPO DE VARIÁVEIS - Basicamente é o local onde a variável vai existir ou não vai existir, dentro do programa que você está escrevendo. 
+
+RETORNO DE RESULTADOS EM FUNÇÕES - O return é uma função nativa do python que tem como "concorrente" por assim dizermos a função print, então ao invés de dizer "print()" você pode usar, 
+especialmente utilizando dentro de uma função, que dentro daquela função, ao final, ela te dá um "return" de alguma coisa, alguma informação, ou até mesmo de outra conta. 
+
+=========================================================================================================================================================================
+Exercícios = 101 a 106
+=========================================================================================================================================================================
+
+101 - Crie um programa que tenha uma função chamada voto() que vai receber como parâmetro o ano de nascimento de uma pessoa, retornando um valor literal indicando se a pessoa 
+tem voto NEGADO, OPCIONAL ou OBRIGATÓRIO nas eleições. 
+
+102 - Crie um programa que tenha uma função fatorial() que recebe dois parâmetros, sendo o primeiro que indique o número a calcular e o outro chamado show, que será um valor lógico 
+(opcional) indicando se será mostrado ou não na tela o processo de cálculo de fatorial. 
+
+103 - Faça um programa que tenha uma função chamada ficha(), que recebe dois parâmetros opcionais: o nome de um jogador e quantos gols ele marcou. 
+O programa deverá ser capaz de mostrar a ficha do jogador, mesmo que algum dado não tenha sido informado corretamente. 
+
+104 - Crie um programa que tenha a função leiaInt(), que vai funcionar de forma semelhante à função input() nativa do Python, só que fazendo a validação para aceitar apenas um valor 
+numérico. Ex: n = leiaInt('Digite um n').
+
+105 - Faça um programa que tenha uma função notas() que pode receber várias notas de alunos e vai retornar um dicionário com as seguintes informações: 01 - Quantidade de notas / 02 - A 
+maior nota / 03 - A menor nota / 04 - A média da turma / 05 - A situação (opcional). Adicione também as docStrings da função. 
+
+106 - Faça um mini sistema que utilize "interactive Help" do Python. O usuário vai digitar o comando e o manual vai aparecer. Quando o usuário digitar "FIM" o programa se encerrará. 
+Obs: USE CORES. 

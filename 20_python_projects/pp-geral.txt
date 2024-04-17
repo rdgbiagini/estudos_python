@@ -1,0 +1,64 @@
+Link da aula: https://www.youtube.com/watch?v=pdy3nh1tn6I
+
+# 01 - E-mail Sender
+
+E-mail sender com conta de e-mail do gmail criada exclusivamente com essa finalidade. Muito interessante e simples, podendo ser personalizavel por exemplo para 
+uma lista de inscritos, para um banco de dados inclusive, podemos rodar esse algoritmo dentro de um banco de dados, todas as vezes que a gente precisar fazer uma 
+lista grande de contatos, de novidades e atè de promocoes de uma loja, por exemplo. 
+
+# 02 - Word Replacement Program
+
+Aqui voce vai passar uma string generica com uma frase por exemplo dentro de uma funcao "word_replacement" por que è dentro dela que tudo vai acontecer. 
+
+# 03 - Basic Calculator
+
+Uma calculadora basica, sem funcoes mais complexas e nem funcoes financeiras, sem memoria e nada desse tipo. 
+
+# 04 - E-mail slicer
+
+Uma coisa que eu nem conheco e nem sei pra que serve antes de comecar essa aula, vamos ao Google. Serve para separar a parte do e-mail que serve como dominio e a parte 
+que serve como usuario, que consiste basicamente em separar tudo o que vem antes do "@" e tudo o que vem depois do arroba sendo este ultimo o dominio e o primeiro a parte 
+exclusiva dos usuarios, login e etc. Basicamente devera funcionar como um "slicer" de uma string
+
+# 05 - Binary Search Algorith
+
+Basicamente estamos falando de uma aplicacao que faz uma busca mais rapida, fazendo com que o processador precise executar menos funcoes ao longo do seu tempo, entregando 
+logicamente um resultado melhor, mais rapido e ainda mais eficiente do uso de energia, memoria e tudo o mais. 
+
+# 06 - Quiz Program 
+
+Um programa que faz 7 perguntinhas sobre capitais de paises e vai comparar as strings escritas pelo usuario e os nomes salvos anteriormente pelo desenvolvedor do sistema. 
+A pegadinha è que se usando o ".lower()" temos que fazer uma coisa exata, porque apesar de ele entender tudo como minusculo e poder ignorar esse tipo de erro, uma letrinha 
+errada e ja era o seu jogo, pode ser considerado erro se nao tiver exatamente a mesma resposta gravada tipo "Rome" è diferente de "Roma" e nao sera computado como um acerto 
+para o usuario do software. Talvez um tratamento de erros combinado com tratamento de strings seja possivel confirmar isso, por exemplo se a gente conseguir comparar letra a 
+letra dentro de uma string onde apenas uma seja diferente, podemos por exemplo colocar um lembrete de que o programa esta rodando no idioma tal e a palavra com uma letra 
+diferente ja sera considerada errada. Poderia ser interessante ter esse tipo de recurso. 
+
+# 07 - QR Code Generator
+
+Gera um QR Code para um atalho para qualquer site por exemplo que voce queira. Podemos usar isso no programa hacker para pegar as informaçoes das pessoas. 
+Um "ataque" assim seria colocar esse QRCode levando para um site qualquer sem aviso, que captasse os dados de cada usuario que entrasse ali e fizesse um grande banco de dados. 
+Fazendo por exemplo a impressao em massa desse QR Code e espalhando por cidades, colocando adesivos por exeplo em pontos turisticos para espalhar e captar os dados de pessoas
+de diversos pontos do mundo que ali passarem.
+
+# 08 - Interest Rating Monthly Payment Calculator
+
+Calculadora de pagamento de juros mensais. Muito auto explicativo na verdade a funcionalidade dessa aplicaçao. 
+
+# 09 - Random Password Generator
+
+Programa que è igualmente auto explicativo o seu nome. 
+
+# 10 - Dice Rolling Simulator
+
+Programa que gera um dado para simular o jogo. Basicamente um "randint(1, 7):" para incluir o "1" e excluir o "7"
+
+# 11 - Site Conectivity Checker
+
+Nesse caso trata-se de um programa que faz um "ping" em um site que voce determina, para poder testar se este esta conectado e disponivel na internet. 
+
+# 12 - Currence Converter
+
+# 13 - Leap Year Checker 
+
+# 14 - Word Dictionary

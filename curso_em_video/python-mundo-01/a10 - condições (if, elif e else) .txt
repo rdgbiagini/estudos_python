@@ -1,0 +1,33 @@
+=========================================================================================================================================================================
+AULA 10 CONDIÇÕES EM PYTHON - IF, ELIF E ELSE
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+ANOTAÇÕES
+=========================================================================================================================================================================
+
+
+=========================================================================================================================================================================
+EXERCÍCIOS = 028 a 035
+=========================================================================================================================================================================
+
+028 - Escreva um programa que faça o computador pensar em um número de 0 a 5 e peça para o jogador tentar adivinhar o número pensado. 
+O programa deverá escrever na tela se o usuário venceu ou perdeu.
+
+029 - Escreva um programa que leia uma velocidade de um carro. Se ele ultrapassar 80km/h mostre uma mensagem dizendo que ele foi multado. 
+Seu programa deverá também calcular a multa, sendo considerado R$ 7.00 por cada km excedido.
+
+030 - Crie um programa que leia um número inteiro e mostre se aquele número é par ou ímpar.
+
+031 - Desenvolva um programa que pergunte a distância de uma viagem em km. 
+Calcule o preço da passagem cobrando: R$ 0.50 por km para viagens até 200km de distância / R$ 0.45 para viagens acima de 200km de distância.
+
+032 - Faça um programa que leia um ano e mostre se ele é um ano bissexto.
+
+033 - Faça um programa que leia três números e mostre qual é o maior e qual é o menor entre eles.
+
+034 - Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento: Para salários superiores a R$ 1,250.00 calcule um aumento de 10%.
+Para salários inferiores ou iguais o aumento é de 15%. 
+
+035 - Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não fazer um triângulo. 
+Regra: A soma de dois lados é sempre menor do que a do terceiro lado.

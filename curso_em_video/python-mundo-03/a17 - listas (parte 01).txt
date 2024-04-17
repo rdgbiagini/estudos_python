@@ -1,0 +1,73 @@
+=========================================================================================================================================================================
+AULA 17 - LISTAS [] (PARTE 01 DE 02)
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+ANOTAÇÕES
+=========================================================================================================================================================================
+
+A principal diferença entre as tuplas e as listas é que as listas são mutáveis. O problema é que a manipulação de valores dentro do Python é feita em comandos diferentes, por isso dividiu 
+o conteúdo. As listas são iguais as tuplas, porém são mutáveis e estão entre colchetes e não entre parênteses. São mutáveis e na hora de aplicar na tela, estará com o colchete. Assim 
+como no caso das tuplas, as listas também serão necessariamente inseridas dentro de uma variável pelo programador, ou até mesmo pelo usuário do sistema para preencher e alterar ela depois 
+de rodar a aplicação. 
+
+As listas são essencialmente strings que vamos manipular durante os usos das aplicações. Para essas anotações aqui usaremos sempre a lista com o nome "lista" mesmo como exemplo. 
+
+lista.append('elemento') - Esse comando adiciona à lista, ao final dela, na direita, o ítem que está dentro dos parênteses trazido como 'elemento' aqui nesse exemplo. Sempre será
+a lista, depois vem ponto, o comando e dentro do parêntese o que se espera desse comando. 
+
+lista.insert(0, 'elemento') - O método insert coloca o item novo do lado esquerdo da lista, assim como faz com as strings. Aqui o "0" está indicando onde o elemento será inserido, ou seja, 
+antes do elemento de length 0 da lista em questão. E o nome do elemento é o elemento que será inserido, empurrando toda a lista "pra frente". 
+
+lista.del(posição) - Esse comando remove um item da lista baseado na sua posição dentro da lista e não do seu valor, por exeplo tirar o segundo item de uma lista, seja ele qual for. 
+
+lista.remove('valor') - Já esse comando aqui remove o ítem não com base na sua posição e sim com base no seu valor, ignorando a sua posição, seja ela qual for. Então se você quer excluir da
+lista o elemento "pedra" mas nem sabe qual a sua posição ou não te interessa, ou até mesmo, ela poderia, com o tempo, variar dentro do programa, uma vez que as listas são completamente mutáveis
+temos o uso desse comando para poder ajudar a buscar um item por seu valor independente de sua posição ter eventualmente sido alterada.
+
+lista.pop() - Para esse caso é removido o último item da lista, do lado direito, porém, sem o remover da lista, fará isso só para apresentar, por exemplo, uma lista qualquer que você, 
+por qualquer que seja a razão, tenha a necessidade de que seja apresentada sem o seu último elemento. Você pode também passar o indice que quer eliminar que vai chegar no mesmo lugar. 
+
+lista.sort() - Esse comando vai fazer você organizar toda a lista em ordem alfabética ou em ordem crescente de números. Usado no exemplo do exercício da tupla com os times de futebol 
+por exemplo, que poderá ser refeito com uma lista dessa vez. 
+
+Se no comando anterior, você colocar, dentro do parãmetro ali dos parênteses a informação "reverse=True" temos que o comando ficará "lista.sort(reverse=True)" e vai fazer com que essa lista 
+seja mostrada de forma invertida, ou seja, do maior para o menor. 
+
+len(lista) - Imprime na tela o "tamanho" da lista, que na verdade é só a quantidade de elementos que ali estão. 
+
+CÓPIA X LIGAÇÃO - Se você faz com que "b = a" está dizendo que a lista "b" é conectada a lista "a" e vai fazer uma conexão direta entre elas, fazendo com que alterações em uma lista gere 
+necessariamente alterações na lista com que ela está diretamente conectada. Agora se você faz um "b = a[:]" está dizendo que a lista "b" recebe tudo o que está contido na lista "a" e então 
+não serão diretamente conectadas e sim feito uma cópia entre elas, onde uma alteração feita em "b" será feita única e exclusivamente em "b" e não nas duas. 
+
+.enumerate(lista) - Essa função é muito útil quando precisamos acessar tanto o valor de uma lista, como o seu índice, dentro dessa lista, seja par qual finalidade for. Podemos usar o índice 
+por exemplo para fazer uma referência cruzada com outra lista, ou até mesmo para saber o valor que aquele índice representa naquela lista e inclusive para realizarmos cálculos com estes dados 
+de uma forma a acessar exatamente aquilo que procuramos. 
+
+A cada iteração essa função enumerate retorna uma tupla (portanto imutável por sua essência) com 2 resultados sequenciais, que nos mostram um índice e o que aquele índice representa dentro de 
+uma lista que estamos usando aqui. Por exemplo podemos saber que, em um cardário, o ítem 1 (índice) tem como valor "hamburguer" ou um preço por exemplo. Bastante útil na hora de se fazer, por 
+exemplo um for, dentro de uma lista, para podermos analisar um certo dado ou um certo conjunto de dados. 
+
+
+=========================================================================================================================================================================
+Exercícios = 078 a 083
+=========================================================================================================================================================================
+
+078 - Faça um programa que leia 5 valores numéricos e guarde-os em uma lista. No final mostre qual foi o maior e o menor valor digitado e os respectivos valores de suas posições. 
+
+079 - Crie um programa em que o usuário possa digitar vários valores numéricos e cadastre-os em uma lista. Caso o número já exista lá dentro, ele não será adicionado. No final serão exibidos 
+todos os valores únicos dessa lista, em ordem crescente.  
+
+080 - Crie um programa onde o usuário possa digitar 5 valores numéricos e cadastre-os em uma lista, já na posição correta da inserção sem usar o "sort()". 
+No final, mostre a lista ordenada na tela. 
+
+081 - Crie um programa que leia vários números e coloque-os em uma lista. Depois disso, nos mostre: 01 - Quantos números foram digitados? / 02 - A lista de valores ordenada de forma 
+decrescente / 03 - Se o valor 5 foi digitado e se ele está ou não na lista. 
+
+082 - Crie um programa que vai ler vários números e criar uma lista. Depois disso crie duas listas extras, sendo a primeira contendo os valores pares digitados e a segunda contendo os 
+valores ímpares digitados pelo usuário. Ao final mostre na tela o conteúdo das três listas geradas. No primeiro loop faça só a leitura dos valores, depois, nos outros loops faça as análises 
+e separação de qual número deverá ir para qual lista. Não precisa ser em ordem crescente ou decrescente, mas se for, ainda melhor. O usuário deverá dizer na hora que deve parar de alimentar 
+o sistema de números. 
+
+083 - Crie um programa onde o usuário digite uma expressão qualquer que use parênteses. Seu aplicativo deverá analisar se a expressão passada está com parênteses abertos e 
+fechados na ordem correta. Pode ser uma expressão matemática por exemplo. 

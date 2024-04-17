@@ -1,0 +1,29 @@
+=========================================================================================================================================================================
+AULA 19 - DICIONÁRIOS {} 
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+ANOTAÇÕES
+=========================================================================================================================================================================
+
+
+
+=========================================================================================================================================================================
+Exercícios = 090 a 095
+=========================================================================================================================================================================
+
+090 - Faça um programa que leia o nome e a média de um aluno, guardando também a situação em um dicionário. No final, mostre o conteúdo da estrutura na tela. 
+
+091 - Crie um programa aonde 4 jogadores joguem um dado e tenham resultados aleatórios. Guarde esses resultados todos em um dicionário. No final, coloque esse dicionário em ordem, 
+sabendo que o vencedor tirou o maior número no dado. 
+
+092 - Crie um programa que leia um nome, ano de nascimento e carteira de trabalho e cadastre-os (com idade) em um dicionário. Se por acaso a CTPS for diferente de zero, o dicionário 
+receberá também o ano de contratação e o salário. Calcule e acrescente, além da idade, com quantos anos a pessoa vai se aposentar. 60 anos para mulher e 65 anos para homens. 
+
+093 - Crie um programa que gerencie o aproveitamento de um jogador de futebol. O programa vai ler o nome do jogador e quantas partidas ele jogou. Depois vai ler a quantidade de gols 
+feitos em cada partida. No final, tudo isso será guardado em um dicionário, incluindo o total de gols feitos durante o campeonato. 
+
+094 - Crie um programa que leia nome, sexo e idade de várias pessoas, guardando os dados de cada pessoa em um dicionário em uma lista. No final mostre: 01 - Quantas pessoas foram 
+cadastradas? / 02 - A média de idade do grupo / 03 - Uma lista com todas as mulheres / 04 - Uma lista com todas as pessoas com idade acima da média. 
+
+095 - Aprimore o desafio da questão 093 para que ele funcione com vários jogadores, incluindo um sistema de visualização de detalhes do aproveitamento de cada jogador. 

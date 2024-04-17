@@ -1,0 +1,51 @@
+=========================================================================================================================================================================
+AULA 09 MANIPULANDO TEXTOS
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+ANOTAÇÕES
+=========================================================================================================================================================================
+
+frase = 'Curso em Video Python'# TECNICAMENTE O PYTHON TRATA ESSA STRING COMO UMA LISTA, ONDE CADA ELEMENTO TERÁ SEU BYTE E SUA POSIÇÃO
+
+print(len(frase)) # GERA O TAMANHO DA FRASE
+print(frase.count('o')) # CONTA QUANTOS "o" TEM DENTRO DA FRASE
+print(frase.count('o', 0, 13)) # CONTA O MESMO PORÉM DENTRO DO ESPAÇO 0 A 13
+print(frase.count(' ')) # CONTA OS ESPAÇOS EM BRANCO DA FRASE
+print(frase.find('deo')) # VAI DIZER O ESPAÇO ONDE ESTÁ ESCRITO ESSA PARTE ESPECIFICAMENTE
+'Curso' in frase # ESSA OPERAÇÃO VAI ME RETORNAR O VALOR "TRUE" OU "FALSE" NA STRING, MAS SEM INDICAR ONDE EXATAMENTE COMO FAZ O FIND
+frase.replace('Python', 'Android') #ESSE VALOR ALTERA INCLUSIVE A QUANTIDADE DE CARACTERES DA STRING PARA ADAPTAR A ALTERAÇÃO QUE PRECISA FAZER
+frase.upper() # TORNA TODAS AS LETRAS MAIÚSCULAS
+frase.lower() # TORNA TODAS AS LETRAS MINÚSCULAS
+frase.capitalize() # JOGA TODOS OS CARACTERES EM MINÚSCULOS, PORÉM, A PRIMEIRA ELE TORNA EM MAIÚSCULA
+frase.title() # FAZ A ANÁLISE DE QUANTAS "PALAVRAS" PELA QUEBRA DOS ESPAÇOS E FAZ O MESMO DO CAPTALIZE COM CADA UMA DAS PALAVRAS, TODAS COMEÇANDO COM MAIÚSCULO.
+frase.strip() # REMOVE OS ESPAÇOS INÚTEIS NO INÍCIO E NO FINAL DA STRING
+frase.rstrip() # FAZ A MESMA COISA PORÉM, SÓ DA DIREITA
+frase.lstrip() # FAZ A MESMA COISA, DESSA VEZ COMEÇA DA ESQUERDA
+frase.split() # VAI DIVIDIR TODA A STRING CONSIDERANDOS OS ESPAÇOS
+'-'.join(frase) # JUNTA STRINGS UMA NA OUTRA USANDO COMO CONECTOR O QUE VOCÊ COLOCAR ANTES ALI DA ORDEM JOIN
+
+print(""" Pode-se escrever aqui um texto grande, colocar enter
+mudar a linha, fazer o que quiser
+e ele sempre vai imprimir tudo junto, sem problemas. 
+Mesma coisa usada para fazer uma observação, porém, dentro dos parênteses do print.""")
+
+
+
+=========================================================================================================================================================================
+EXERCÍCIOS = 022 a 027
+=========================================================================================================================================================================
+
+022 - Crie um programa que leia o nome completo de uma pessoa e retorne: O nome com todas as letras maiúsculas / O nome com todas as letras minúsculas / Quantas letras ao todo, 
+sem considerar espaços / Quantas letras tem o primeiro nome 
+
+023 - Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos: Ex: 1834 e diga: 4 unidades / 3 dezenas / 8 centenas / 1 milhar. 
+Resolver através de strings e através de inteiros. 
+
+024 - Crie um programa que leia o nome da cidade de uma pessoa e diga se ela começa ou não com o nome "SANTO".
+
+025 - Crie um programa que leia o nome de uma pessoa e diga se ela tem Silva no nome. 
+
+026 - Crie um programa que leia uma frase e diga: Quantas letras "a" / Onde aparece a primeira / Onde aparece a última / Tudo em uma única frase
+
+027 - Faça um programa que leia o nome completo de uma pessoa e mostre em seguida apenas o primeiro e o último nome separadamente.

@@ -1,0 +1,31 @@
+=========================================================================================================================================================================
+AULA 15 - INTERROMPENDO REPETIÇÕES 
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+ANOTAÇÕES
+=========================================================================================================================================================================
+
+. 
+
+=========================================================================================================================================================================
+Exercícios = 066 a 071
+=========================================================================================================================================================================
+
+066 - Crie um programa que leia vários números inteiros pelo teclado. O programa só vai parar de ler quando o usuário digitar o valor 999, que é a condição de parada. 
+No final, mostre quantos números foram inseridos e qual foi a soma entre eles. (desconsiderando a flag de parada). 
+
+067 - Faça um programa que mostre a tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário. O programa será interrompido quando o usuário digitar 
+um número negativo.
+
+068 - Faça um programa que jogue par ou ímpar com o computador. O jogo só será interrompido quando o jogador perder, mostrando o total de vitórias consecutivas que ele 
+conquistou no final do jogo.
+
+069 - Crie um programa que leia o nome, a idade e o sexo de várias pessoas. A cada pessoa cadastrada, o programa deverá perguntar ao usuário se ele quer ou não continuar 
+a cadastrar mais pessoas. No final mostre: Quantas pessoas tem mais de 18 anos / Quantos homens foram cadastrados / Quantas mulheres tem menos de 20 anos.
+
+070 - Crie um programa que leia o nome e preço de vários produtos. O programa deverá perguntar se o usuário vai continuar cadastrando. No final, mostre: 
+Qual o total gasto na compra? / Quantos produtos custam mais de 1000.00 reais? / Qual o nome do produto mais barato? 
+
+071 - Crie um programa que simule o funcionamento de um caixa eletrônico. No início pergunte ao usuário qual o valor sacado (número inteiro - esse caixa não saca moedas).
+Então o programa vai informar quantas cédulas de cada valor serão entregues. OBS: Considere que o caixa tem cédulas de 50, 20, 10 e 1

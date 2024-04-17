@@ -1,0 +1,26 @@
+=========================================================================================================================================================================
+AULA 20 - FUNÇÕES (PARTE 01 DE 02) 
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+ANOTAÇÕES
+=========================================================================================================================================================================
+
+
+
+=========================================================================================================================================================================
+Exercícios = 096 a 100
+=========================================================================================================================================================================
+
+096 - Faça um programa que tenha uma função chamada area(), que receba as dimensões de um terreno retangular (largura e comprimento) e mostre a área do terreno. 
+
+097 - Faça um programa que tenha uma função chamada escreva(), que receba um texto qualquer como parâmetro e mostre uma mensagem com tamanho adaptável. Exemplo: "escreva(Olá Mundo!)" 
+Saída: --- Olá Mundo! --- (mas esses traços são em cima e em baixo, ou seja, ele quer que a função receba * a quantidade de len(escreva) + alguma coisa).
+
+098 - Faça um programa que tenha uma função chamada contador(), que receba três parâmetros: início, fim e passo e depois realize uma contagem com base nesses dados. Seu programa tem 
+que realizar três contagens através da função criada: 01 - De a até 10, de 1 em 1 / 02 - De 10 até 0, de 2 em 2 / 03 - Uma contagem personalizada.
+
+099 - Faça um programa que tenha uma função chamada maior(), que receba vários parâmetros com valores inteiros. Seu programa tem que analisar todos os valores e dizer qual deles é o maior.
+
+100 - Faça um programa que tenha uma lista chamada números e duas funções chamadas sorteia() e somaPar(). A primeira função vai sortear 5 números e vai coloca-los dentro da lista e a 
+segunda função vai mostrar a soma, desses números, que sejam pares. 

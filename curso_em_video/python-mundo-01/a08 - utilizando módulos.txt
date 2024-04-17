@@ -1,0 +1,24 @@
+=========================================================================================================================================================================
+AULA 08 UTILIZANDO MÓDULOS EM PYTHON
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+ANOTAÇÕES
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+EXERCÍCIOS = 016 a 021
+=========================================================================================================================================================================
+
+016 - Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção inteira.
+
+017 - Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo. Calcule e mostre o comprimento da hipotenusa.
+
+018 - Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, conseno e da tangente desse ângulo.
+
+019 - Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo os nomes deles e escrevendo o nome escolhido.
+
+020 - O mesmo professor do exercício anterior quer agora escolher a ordem de apresentação por seus alunos na apresentação de seus trabalhos. 
+Ajude o a organizar a ordem com os mesmos quatro alunos do exercício anterior.
+
+021 - Faça um programa em Python que abra e reproduza um arquivo de áudio em mp3. 

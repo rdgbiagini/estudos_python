@@ -1,0 +1,35 @@
+=========================================================================================================================================================================
+AULA 07 DISSECANDO UMA VARIÁVEL
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+ANOTAÇÕES
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+EXERCÍCIOS = 005 a 015
+=========================================================================================================================================================================
+
+005 - Faça um programa que leia um número inteiro. E mostre na tela seu sucessor e seu antecessor.
+
+006 - Faça um programa que leia um número inteiro. E mostre seu dobro, seu triplo e a sua raiz quadrada.  
+
+007 - Faça um programa que leia duas notas de um aluno e dê sua média.
+
+008 - Escreva um programa que leia um valor em metros e exiba ele convertido em: centímetros e milímetros.
+
+009 - Escreva um programa que leia um número inteiro qualquer e mostre na tela a sua taboada
+
+010 - Escreva um programa que leia quanto dinheiro a pessoa tem na carteira e diga a ela quantos dólares é possível ela comprar. Considerando o dólar a R$ 3.27 
+
+011 - Faça um programa que leia a altura e a largura de uma parede em metros e calcule sua área. Daí dê a quantidade de tintas necessárias para pintar toda essa parede.
+Considere que cada litro de tinta pinta 2m² de parede.
+
+012 - Faça um programa que leia o preço de um produto e mostre seu novo preço com desconto de 5%.
+
+013 - Faça um programa que leia o salário de um funcionário e o seu novo salário com 15% de aumento.
+
+014 - Conversor de temperatura.
+
+015 - Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. 
+Calcule o preço a pagar, sabendo que o carro custa 60 / dia e 0.15 / quilômetro rodado.

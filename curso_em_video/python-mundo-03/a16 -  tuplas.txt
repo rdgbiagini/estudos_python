@@ -1,0 +1,43 @@
+=========================================================================================================================================================================
+AULA 16 - TUPLAS ()
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+ANOTAÇÕES
+=========================================================================================================================================================================
+
+TUPLAS são variáveis compostas e imutáveis que permitem armazenar vários valores em uma mesma estrutura, acessíveis por chaves individuais. 
+
+Tuplas usam como base os "( )" para marcar. Elas aceitam diversos tipos de dados dentro de suas estruturas, sem qualquer restrição.
+
+TUPLAS SÃO IMUTÁVEIS. Uma vez criadas, não poderão ser alteradas, no máximo substituídas integralmente talvez. 
+
+Para as tuplas podemos usar sistemas de manipulação, como se é feito com as strings, por exemplo quando usamos o ".count(x)" para saber, dentro da tupla, quantas vezes temos 
+a ocorrência do ítem "x" designado nesse comando. As tuplas também aceitam por exemplo a concatenação entre duas ou mais tuplas, formando daí uma terceira tupla com todos os 
+elementos somados, sem tirar e nem por nenhum dos elementos. 
+
+O comando ".index()" identifica, em qual posição, dentro da tupla, está a ocorrência do elemento que estiver entre parênteses ali. 
+
+Resumidamente, devemos considerar que tuplas tem um comportamento semelhante aos das strings e podemos não modificar, porém, temos sim caminhos para explorar elas, dissecar seu 
+conteúdo de forma detalhada a aproveitar os dados da melhor forma possível em nosso favor. 
+
+=========================================================================================================================================================================
+Exercícios = 072 a 077
+=========================================================================================================================================================================
+
+072 - Crie um programa que tenha uma tupla totalmente preenchida com uma contagem por extenso, de zero a vinte. Seu programa deverá ler o número pelo teclado entre 0 e 20 
+(em numeral) e na sequência mostrar ele escrito por extenso. Só deve aceitar números entre 0 e 20. 
+
+073 - Crie uma tupla com os 20 primeiros colocados do Brasileirão atualmente, na ordem de colocação, para depois então mostrar: 
+Os 5 primeiros colocados / Os 4 últimos colocados da tabela / Uma lista com todos os times em ordem alfabética / Em que posição na tabela está a Chapecoense?
+
+074 - Crie um programa que vai gerar 5 números aleatórios e coloque dentro de uma tupla nova. Depois mostre a listagem de números gerados e indique quais foram o maior e 
+o menor números sorteados e incluídos nessa tupla. 
+
+075 - Desenvolva um programa que leia 4 valores pelo teclado e guarde em uma tupla. No final mostre quantas vezes aparece o valor 9 / Qual foi a posição em que apareceu o 
+primeiro valor 3 / Quais foram os números pares? / IMPORTANTE QUE se buscar um valor que não existe, o programa deverá indicar isso com um erro. 
+
+076 - Crie um programa que tenha uma tupla única com os nomes de produtos e seus preços na sequência. No final mostre uma listagem de preços organizando os dados 
+de forma tabular.
+
+077 - Crie um programa que tenha uma tupla com várias palavras aleatórias, mas sem acentuação gráfica. Mostre, para cada palavra, quais são as suas vogais. 

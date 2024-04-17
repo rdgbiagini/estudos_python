@@ -1,0 +1,31 @@
+=========================================================================================================================================================================
+AULA 18 - LISTAS [] (PARTE 02 DE 02)
+=========================================================================================================================================================================
+
+=========================================================================================================================================================================
+ANOTAÇÕES
+=========================================================================================================================================================================
+
+
+
+=========================================================================================================================================================================
+Exercícios = 084 a 089
+=========================================================================================================================================================================
+
+084 - Faça um programa que leia nome e peso de várias pessoas, guardando tudo em listas individuais, dentro de uma lista grande, no final mostre: 01 - Quantas pessoas foram cadastradas / 
+02 - Uma listagem com as pessoas mais pesadas / 03 - Uma listagem com as pessoas mais leves. 
+
+085 - Crie um programa onde o usuário possa digitar 7 valores numéricos (for in range) e cadastre-os em uma lista única, que nos mostre separadamente os valores pares e ímpares. 
+No final mostre os valores pares e ímpares em ordem crescente. 
+
+086 - Crie um programa que crie uma matriz de dimensão 3x3 e preencha com vários valores lidos pelo teclado (mais precisamente 9 valores, né?) No final mostre a matriz impressa na tela 
+com os valores inseridos e de forma organizada, simétrica e limpa na tela. De preferência use cores. 
+
+087 - Aprimore o desafio anterior, mostrando agora: 01 - A soma de todos os valores pares digitados / 02 - A soma dos valores da terceira coluna / 03 - O maior valor da segunda linha / 
+04 - a soma de todos os valores / 05 - A multiplicação entre o primeiro e o último valor digitado. 
+
+088 - Faça um programa que ajude um jogador da mega sena a criar palpites. O programa deverá perguntar quantos jogos serão gerados e vai sortear os 6 números nessa exata quantidade de vezes, 
+gerando listas separadas dentro de uma lista grande. Importante que o simulador não poderá, dentro de uma mesma lista (de um jogo) sortear 2x o mesmo número. A mega sena vai de 00 a 60.
+
+089 - Crie um programa que leia nome e duas notas de vários alunos e guarde tudo em uma lista composta. No final mostre um boletim contendo a média de cada um e permita que o usuário possa 
+mostrar as notas de cada aluno individualmente. 

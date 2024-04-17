@@ -1,0 +1,2 @@
+""" Crie um pequeno sistema de modulrização que permita cadastrar pessoas pelo seu nome e idade em arquivo de texto simples. O sistema só vai ter 2 opções: cadastrar uma 
+nova pessoa e listar as pessoas já cadastradas. """
